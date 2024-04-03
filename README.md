@@ -4,7 +4,7 @@ This repository contains code for analyzing gene expression data related to card
 
 **Data:**
 
-The gene expression data were generated using RNA sequencing techniques from samples collected from individuals with various forms of cardiomyopathy. The RNA-seq libraries were prepared with the Illumina TruSEq stranded mrNA kit and Ovation amplification kit. The original data can be found publicly in the NCBI GEO repository under the accession number (\href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141910}{source}).
+The gene expression data were generated using RNA sequencing techniques from samples collected from individuals with various forms of cardiomyopathy. The RNA-seq libraries were prepared with the Illumina TruSEq stranded mrNA kit and Ovation amplification kit. The original data can be found publicly in the NCBI GEO repository under the accession number GSE141910 (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141910).
 
 **Folder Structure:**
 
