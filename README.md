@@ -10,7 +10,7 @@ The gene expression data were generated using RNA sequencing techniques from sam
 
 - **Data:** Contains the RNA-seq data files from each sample.
 - **Scripts:** Contains R scripts for preprocessing, organizing annotations, compiling data, and generating the PCA plot of the samples labeled by gene etiology.
-- **Results:** Contains outputs generated from the scripts (singular PCA plot called "PCAbyEiology".
+- **Results:** Contains outputs generated from the scripts (singular PCA plot called "PCAbyEiology").
 
 **Installation:**
 
@@ -30,8 +30,9 @@ install.packages("dplyr")
 install.packages("readr")
 install.packages("tidyr")
 ```
+These scripts were generated and ran with R version 4.1.2 (Bird Hippie).
 
-After installing the required packages, you can clone or download this repository and run the R scripts provided in the "Scripts" folder. Make sure to update file paths if necessary to point to the location of your data files. To generate the PCA plot, run the scripts in the following order:
+After installing the required packages, you can clone or download this repository and run the R scripts provided in the "Scripts" folder. Make sure to update file paths if necessary to point to the location of your data files. To generate the PCA plot, run the scripts in the "Scripts" folder in the following order:
 
 1. combinedsamples.R
 2. justtheannotations.R
