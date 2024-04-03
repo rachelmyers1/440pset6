@@ -1,16 +1,16 @@
 **Overview:**
 
-This repository contains code for analyzing gene expression data related to cardiomyopathy. It includes scripts to preprocess the data, perform exploratory analysis, and conduct differential gene expression analysis using R.
+This repository contains code for analyzing gene expression data related to cardiomyopathy. It includes scripts to compile the sample data into a singular data frame, assign phenotypic annotations to the data, and generate a PCA plot that labels the sample by disease etiology.
 
 **Data:**
 
-The gene expression data were generated using RNA sequencing techniques from samples collected from individuals with various forms of cardiomyopathy. The original data may be too large to upload directly to GitHub but can be accessed from the source repository or database (provide citation if available).
+The gene expression data were generated using RNA sequencing techniques from samples collected from individuals with various forms of cardiomyopathy. The RNA-seq libraries were prepared with the Illumina TruSEq stranded mrNA kit and Ovation amplification kit. The original data can be found publicly in the NCBI GEO repository under the accession number (\href{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE141910}{source}).
 
 **Folder Structure:**
 
-- **Data:** Contains the raw gene expression data files.
-- **Scripts:** Contains R scripts for preprocessing, exploratory analysis, and differential expression analysis.
-- **Results:** Contains outputs generated from the analysis, such as PCA plots, volcano plots, and differential expression tables.
+- **Data:** Contains the RNA-seq data files from each sample.
+- **Scripts:** Contains R scripts for preprocessing, organizing annotations, compiling data, and generating the PCA plot of the samples labeled by gene etiology.
+- **Results:** Contains outputs generated from the scripts (singular PCA plot called "PCAbyEiology".
 
 **Installation:**
 
@@ -31,4 +31,9 @@ install.packages("readr")
 install.packages("tidyr")
 ```
 
-After installing the required packages, you can clone or download this repository and run the R scripts provided in the "Scripts" folder. Make sure to update file paths if necessary to point to the location of your data files.
+After installing the required packages, you can clone or download this repository and run the R scripts provided in the "Scripts" folder. Make sure to update file paths if necessary to point to the location of your data files. To generate the PCA plot, run the scripts in the following order:
+
+1. combinedsamples.R
+2. justtheannotations.R
+3. combinedwithannotations.R
+4. PCAattemptEtiology.R
