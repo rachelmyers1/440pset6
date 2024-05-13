@@ -1,6 +1,6 @@
 **Overview:**
 
-This repository contains code for analyzing gene expression data related to cardiomyopathy. It includes scripts to compile the sample data into a singular data frame, assign phenotypic annotations to the data, and generate a PCA plot that labels the sample by disease etiology.
+This repository contains code for analyzing RNA expression data related to cardiomyopathy. It includes scripts to compile the sample data into a singular data frame, assign phenotypic annotations to the data, PCA and UMAPs that labels the samples by disease etiology, race, and other phenotypic factors. Most importantly, it contains the code to perform DESeq2 and edgeR differential gene analysis in python and R, respectively.
 
 **Data:**
 
@@ -9,12 +9,12 @@ The gene expression data were generated using RNA sequencing techniques from sam
 **Folder Structure:**
 
 - **Data:** Contains the RNA-seq data files from each sample.
-- **Scripts:** Contains R scripts for preprocessing, organizing annotations, compiling data, and generating the PCA plot of the samples labeled by gene etiology.
-- **Results:** Contains outputs generated from the scripts (singular PCA plot called "PCAbyEiology").
+- **Scripts:** Contains R and Python scripts for preprocessing, organizing annotations, compiling data, dimensionality-reduction plots, and differential gene expression analysis.
+- **Results:** Contains outputs generated from the scripts.
 
 **Installation:**
 
-To run the code, you will need R installed on your system along with the following R packages:
+To run the code, you will need R and python installed on your system along with the following R packages:
 - limma
 - ggplot2
 - dplyr
