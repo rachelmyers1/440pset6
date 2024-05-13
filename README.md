@@ -20,6 +20,7 @@ To run the code, you will need R installed on your system along with the followi
 - dplyr
 - readr
 - tidyr
+- edgeR
 
 You can install these packages using the following R commands:
 
@@ -38,3 +39,18 @@ After installing the required packages, you can clone or download this repositor
 2. justtheannotations.R
 3. combinedwithannotations.R
 4. PCAattemptEtiology.R
+
+Python Packages Used:
+pandas (version 1.5.3): Used for data manipulation and analysis, providing DataFrame structures to handle structured data efficiently.
+numpy (version 1.24.3): Essential for numerical operations, providing arrays and mathematical functions for efficient computation.
+google.colab (python version 3.10.12)
+condacolab (python version 3.10.12)
+pyDESeq2 (version 0.4.8): Used for differential expression analysis of RNA-seq data, performing statistical tests to identify significant gene expression changes.
+os (built-in)
+pickle (built-in)
+statsmodels (version 0.14.0): Provides statistical modeling and testing functionalities, used here for statistical analysis and hypothesis testing.
+matplotlib (version 3.7.1): Used for data visualization, particularly for creating plots like scatter plots and volcano plots to visualize gene expression and statistical results.
+
+
+
+
